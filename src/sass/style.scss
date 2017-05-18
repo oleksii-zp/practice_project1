@@ -1,0 +1,404 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    background: #F1F6F8;
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+
+.bx-wrapper, .bx-viewport
+{
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    // box-shadow: none;
+    border: 0px;
+}
+
+p {
+    // font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald';
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #524C56;
+    font-size: 140%;
+    line-height: 155%;
+    padding: 3%;
+    text-indent: 0;
+    text-align: justify;
+}
+
+h3 {
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 175%;
+    line-height: 155%;
+    font-weight: 500;
+    color: #524C56;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+a {
+    color: #524C56;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #C3D7DF;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#banner-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 3% 0;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    top: 0;
+    left: 0;
+}
+
+#logo {
+    margin: 10px 0 0 10px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: url(../img/pics/logo4.png) no-repeat center;
+    background-size: contain;
+}
+
+nav {
+    float: right;
+    padding: 25px 20px 0 0;
+}
+
+#menu-icon {
+    display: hidden;
+    width: 40px;
+    height: 40px;
+    background: url(../img/pics/menu-icon.png);
+    background-size: contain;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul li {
+   font-family: 'Oswald';
+    font-weight: 300;
+        letter-spacing: 1px;
+    font-size: 150%;
+    float: left;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #6991AC;
+}
+
+.current {
+    color: #3F5767;
+}
+
+a:hover {
+    color: #A5BDCD;
+}
+
+.slider {
+    max-width: 1200px;
+}
+
+.slider1 img {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.slider .bx-wrapper .bx-controls-direction a {
+    display: none;
+}
+.skills-icons {
+     display: flex;
+    flex-flow: row wrap;
+    
+    justify-content: center;
+}
+
+.one-third {
+
+    width: 25%;
+    // float: left;
+    // text-align: justify;
+   
+}
+
+.icon-wrap {
+    display: flex;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #6991AC;
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+
+.icon-wrap i {
+    text-align: center;
+    color: #F0F0F0;
+    font-size: 550%;
+    padding: 13%;
+    // line-height: 1.5;
+}
+
+.left-col {
+    float: left;
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    padding: 1%;
+}
+
+.sidebar {
+    float: right;
+    margin: 0 auto;
+    width: 32%;
+    height: auto;
+    padding: 1%;
+}
+
+.one-third-padding {
+    width: 29%;
+    float: left;
+    margin: 2% 2%;
+    text-align: justify;
+}
+
+.clearfix-padding {
+    clear: both;
+    padding: 2%;
+}
+
+footer {
+    background: #6991AC;
+    width: 100%;
+    overflow: auto;
+}
+
+.icon-text {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.icon-text-icon {
+    float: left;
+    width: 20%;
+    padding: 4%;
+}
+
+.icon-text-text {
+    width: 64%;
+    float: left;
+    padding: 4% 4% 2% 0;
+}
+
+.footer-nav {
+    text-align: right;
+}
+
+.footer-nav a {
+    font-size: 160%;
+    color: #C3D7DF;
+    font-weight: 300;
+}
+
+.footer-nav a:hover {
+    color: #F5F5F5;
+}
+
+.social {
+    list-style-type: none;
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 380%;
+    margin: 1%;
+    padding: 5% 5% 5% 4%;
+    color: #C3D7DF;
+}
+
+.social i:hover {
+    color: #F5F5F5;
+}
+
+footer.second {
+    
+    background-color: #544B59;
+    max-height: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+footer.second p {
+    padding: 5px 0 5px 0;
+    text-align: center;
+    color: #F5F5F5;
+    font-size: 160%;
+    line-height: 155%;
+}
+
+.slider-title-wrap {
+    display: inline-block;
+    margin-top: -20%;
+    margin-left: 2%;
+    position: absolute;
+}
+
+.slider-title {
+    display: inline-block;
+    font-size: 480%;
+    color: white;
+    background-color: #6991AC;
+    opacity: 0.8;
+    padding: 0 30px 0 30px;
+    line-height: 120%;
+    text-indent: 0;
+    white-space: nowrap;
+   font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.slider-title-sub {
+    margin-top: 1%;
+    font-size: 200%;
+}
+
+@media screen and (max-width: 767px) {
+    p {
+        font-size: 130%;
+    }
+    h3 {
+        font-size: 150%
+    }
+    header {
+        height: 80px;
+        position: relative;
+    }
+    #logo {
+width: 60px;
+height: 60px;
+    }
+    #menu-icon {
+        display: inline-block;
+    }
+    nav:hover ul {
+        display: block;
+    }
+    nav ul,
+    nav:active ul {
+        display: none;
+        z-index: 1000;
+        position: absolute;
+        padding: 20px;
+        background: #F5F5F5;
+        border: 1px solid #A5BDCD;
+        right: 20px;
+        width: 50%;
+        border-radius: 3px 0 3px 3px;
+        opacity: 0.95;
+    }
+    nav li {
+        text-align: center;
+        width: 100%;
+    }
+    .one-third {
+        float: left;
+        width: 50%;
+    }
+    .icon-wrap {
+        height: 80px;
+        width: 80px;
+        margin-top: 3%;
+    }
+    .icon-wrap i {
+        font-size: 350%;
+    }
+    .left-col {
+        width: 100%;
+        padding: 0;
+    }
+    .sidebar {
+        width: 100%;
+    }
+    .one-third-padding {
+        width: 98%;
+        margin: 0;
+        padding: 1%;
+    }
+    .icon-text-icon {
+        width: 100%;
+        padding: 0 0 2% 0;
+    }
+    .icon-text-text {
+        width: 100%;
+        padding: 2% 0 0 0;
+        font-size: 80%;
+    }
+    .footer-nav {
+        text-align: center;
+        padding-top: 5%;
+    }
+    .footer-nav li {
+        padding: 1%;
+    }
+    .footer-nav a {
+        font-size: 145%;
+    }
+    .social i {
+        font-size: 180%;
+    }
+
+    
+    .slider-title {
+        font-size: 200%;
+    }
+    .slider-title-sub {
+        font-size: 100%;
+    }
+}
