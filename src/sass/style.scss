@@ -37,6 +37,10 @@ p {
     text-align: justify;
 }
 
+section.one-third-padding p {
+     font-size: 120%;
+}
+
 h3 {
     font-family: 'Oswald';
     font-weight: 400;
@@ -91,7 +95,7 @@ header {
     float: left;
     width: 100px;
     height: 100px;
-    background: url(../img/pics/logo4.png) no-repeat center;
+    background: url(../img/pics/logomain.png) no-repeat center;
     background-size: contain;
 }
 
@@ -309,7 +313,7 @@ footer.second p {
     font-size: 200%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     p {
         font-size: 130%;
     }
